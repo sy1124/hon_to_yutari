@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+
+/*基本設定
+---------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	letter-spacing: 1px;
+	color: #433F3E;
+	line-height: 1.4em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img  {
+	border: none;
+	vertical-align: middle;
+}
+html {
+	overflow-y: scroll;
+	font-size: 14px;
+}	
+body{
+	background-color:#EFEFEF;
+}
+body a {
+	color: #433F3E;
+	text-decoration: none;
+}
+body a:hover {
+    opacity: 0.5;
+}
+body a:hover img {
+	filter: alpha(opacity=50);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=50)";  /* ie 8 */
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+th,td {
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+h1,h2,p {
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-weight: normal;
+}
+h1 {
+	font-size: 23px;
+	padding: 25px 0px 20px 0px;
+}
+h2 {
+	font-size: 18px;
+	padding-bottom: 25px;
+	color: #DB5443;
+}
+p {
+	line-height: 2em;	
+}
+
+/*メイン
+---------------------------------------------------------------------------*/
+
+#main_outline {
+	width: 1230px;
+	margin: 0px;
+	overflow:hidden;
+	background-color: #C9CACA;
+	position:relative;
+}
+.main {
+	width: 1039px;
+	float: right;
+	background-color: #EFEFEF;
+	border-left: 1px solid #231815;
+	overflow:visible;
+}
+.contents{
+}
+
+.contents_column{
+}
+article {
+	background-image: url(../image/common/contents/bg-page_top.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#page_top {
+	clear: both;
+	text-align: right;
+	padding: 20px 45px 15px 0px;
+}
+
+/*購入方法バナー
+---------------------------------------------------------------------------*/
+.howtobuy { padding:30px 0 0; text-align:center; }
+
+
+
+/*フッター
+---------------------------------------------------------------------------*/
+
+#footer_nav {
+	background-color: #000000;
+}
+#footer_nav {
+	padding: 50px 0px 50px 0px;
+}
+#footer_nav img {
+	background-color: #000000;  /* ie 8 */
+}
+#footer_nav table {
+	width: 850px;
+	margin: 0px auto 0px auto;
+}
+#footer_nav td {
+	text-align: center;
+}
+
+/*サイドバー
+---------------------------------------------------------------------------*/
+
+#sidebar {
+	width: 189px;
+	float: left;
+	background-color: #FFFFFF;
+	position:relative;
+}
+#sidebar .sidebar_contents {
+	width: 189px;
+	margin: 0px auto 0px auto;
+	background-color:#FFF;
+	padding: 35px 0px 60px 0px;
+}
+#sidebar img {
+	background-color: #FFFFFF;  /* ie 8 */
+}
+#sidebar #site_logo {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#sidebar #g_nav li {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#sidebar #search_box {
+	border-bottom: 1px solid #766F6D;
+	padding-bottom: 30px;
+	margin-bottom: 15px;
+}
+#sidebar #search_box input[type*="text"] {
+	border: 1px solid #948472;
+	width: 176px;
+	color: #948472;
+	margin-bottom: 10px;
+}
+#sidebar #search_box input[type="submit"] {
+	width: 90px;
+	line-height: 1.5em;
+	font-size: 14px;
+}
+#sidebar #yutari_icon {
+	text-align: center;
+	margin-bottom: 15px;
+}
+#sidebar #sns_icon {
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+#sidebar #sns_icon ul {
+	padding-left: 6px;
+}
+#sidebar #sns_icon li {
+	float: left;
+	margin-right: 6px;
+}

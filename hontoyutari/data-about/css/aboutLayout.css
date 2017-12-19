@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document 'about us'*/
+
+/*コンテンツ枠*/
+
+.left_block {
+	width: 612px;
+}
+
+.left_block_inner {
+	width: 570px;
+	padding-left:10px;
+}
+.right_block {
+	width: 350px;
+}

@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/*検索結果（オーバーライド）
+---------------------------------------------------------------------------*/
+
+.search_result .column_2 .box .shop_category {
+	text-align: right;
+	font-size: 90%;
+	font-weight: bold;
+	padding-bottom: 5px;
+	word-wrap: break-word;
+}
+.search_result .column_2 .box .shop_name {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 100%;
+	font-weight: bold;
+	word-wrap: break-word;
+	line-height: 1em;
+}
+.search_result .column_2 .box .shop_address {
+	padding-top: 3px;
+	text-align: center;
+	font-size: 85%;
+	margin-top:5px;
+}
+/*JQuery カスタムセレクト　オプショナル
+---------------------------------------------------------------------------*/
+select {
+	cursor: pointer;
+}
+.customSelect {						/* デフォルト時のスタイルを記述します。 */
+	border: 1px solid #D6D6D6;
+	background-color: #FFFFFF;
+	height: 42px;
+	font-size: 16px;
+	font-size:1rem;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin:15px 0;
+	min-width:192px;
+}
+span.customSelect{
+	width:100%;
+}
+.customSelectInner {				/* セレクトボックスの中のスタイルを記述します。※矢印等の画像は背景画像としてここに記述します。 */
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url(../../common/image/contents/bg-form_select_box.png);
+	width:80%;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 0px 40px 0px 5px;
+}
+.customSelect.customSelectHover .customSelectInner {	/* マウスオーバー時のスタイルを記述します。 */
+	background-image: url(../../common/image/contents/bg-form_select_box_hover.png);
+}
+span.customSelect, span.customSelectInner{
+	overflow: hidden;
+	vertical-align: middle;
+  width: 100%;
+}
+#shop_index.main .control_search input[type*="text"]{
+	height:40px;
+}
+/*JQuery ボタン
+---------------------------------------------------------------------------*/
+#shop_index.main .control_search table{
+	overflow:hidden;
+}
+#shop_index.main .control_search table td{
+}
+#shop_index.main tr{
+}
+
+#shop_index.main .search_arrow{
+	margin:0;
+}
+
+#os_btn span.rarrow{
+	margin-left:45%;
+}
+
+#shop_index.main .control_search .btn{
+	width:40%;
+	float:right;
+}
+
+.s_btn{
+}
+/*アコーディオンメニュー
+---------------------------------------------------------------------------*/
+#p_down{
+	width:100%;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+.child{
+
+	}
+
+#p_down dt{
+	font-size:1.5em;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 30px;
+	height: 30px;
+	position: relative;
+}
+
+span.ac_btn{
+	display: block;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	position:absolute;
+	background: #473727;
+}
+#acc{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	vertical-align: middle;
+	line-height: 30px;
+	background: #473727;
+	}
+	/*メインコンテンツ　ボックス
+	---------------------------------------------------------------------------*/
+
+	#shop_index.main .column_2 fixHeight{
+		overflow:hidden;
+		}
+	#shop_index.main .search_result .box:nth-child(2n){
+		float:right;
+		margin:0 0 20px;
+		}
+
+	#shop_index.main .search_result .box:nth-child(2n+1){
+		float:left;
+		margin:0 0 20px 12px;
+		clear: both;
+		}

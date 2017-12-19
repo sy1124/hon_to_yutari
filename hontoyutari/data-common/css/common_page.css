@@ -1,0 +1,437 @@
+@charset "utf-8";
+
+/*メイン内コンテンツ部分　共通CSS デザインは個別ページCSSでオーバーライド
+---------------------------------------------------------------------------*/
+.main .content_outline{
+	width: 1000px;
+	margin-left:30px;
+	}
+
+.main .contents {
+	width: 100%;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+
+.main .contents_column {
+	width: 100%;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+	background-image: url(../../image/common/contents/bg-column_line_tate.png);
+	background-repeat: repeat-y;
+	background-position: 615px top;
+}
+.main .contents_column .left_block p {
+	line-height: 2em;	
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.main .contents_column .left_block p a {
+	text-decoration: underline;
+}
+.main .contents_column .left_block {
+	float: left;
+	width: 612px;
+}
+.main .contents_column .left_block_inner {
+	width: 570px;
+}
+.main .contents_column .right_block {
+	float: right;
+	width: 350px;
+}
+#page_ttl,.main_ttl {
+	clear: both;
+}
+#page_ttl {
+	margin-bottom: 50px;
+}
+.main_ttl {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+/*テキストボタン（ブラウン）共通CSS デザインは個別ページCSSでオーバーライド
+---------------------------------------------------------------------------*/
+
+a.btn,input.btn,.btn_disable {
+	display: block;
+	width: 100%;
+	background-color: #948472;
+	border: 1px solid #948472;
+	text-align: center;
+	width: 100%;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+}
+a.btn:hover,input.btn:hover {
+	background-color: #473727;
+	opacity: 1;
+}
+.btn_disable {
+	opacity: 0.5;
+}
+
+/*ボタン追記*/
+.contents_column .left_block .read_article .btn {
+	width: 360px;
+	margin: 0px auto 0px auto;
+	line-height: 60px;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+/*矢印付き　その他関連リンク
+---------------------------------------------------------------------------*/
+
+.other_link {
+	padding: 20px 0px 20px 0px;
+}
+.other_link li {
+	font-size: 13px;
+	padding: 5px 0px 5px 25px;
+	background-image: url(../../image/common/contents/bg-arrow_right_w11.png);
+	background-repeat: no-repeat;
+	background-position: 5px 6px;
+}
+
+/*fixheight
+---------------------------------------------------------------------------*/
+
+.fixHeightChild_01,.fixHeightChild_02,.fixHeightChild_03,.fixHeightChild_04,.fixHeightChild_05 {
+	display: block;
+}
+
+/*色
+---------------------------------------------------------------------------*/
+
+.red {
+	color:#DB5443 !important;
+}
+.white {
+	color:#FFFFFF !important;
+}
+
+/*3カラム
+---------------------------------------------------------------------------*/
+
+.column_3 {
+	width: 1020px;
+	float: left;
+}
+.column_3 .box {
+	float: left;
+	margin-left: 20px;
+	width: 320px;
+}
+.column_3 .box th,.column_3 .box td {
+	vertical-align: middle;
+}
+.column_3 .box .inner {
+	position: relative;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.column_3 .box .icon_new {
+	position: absolute;
+	width: 29px;
+	top: 0px;
+	right: 36px;
+}
+.column_3 .box .img_disable {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-image: url(../../image/common/contents/bg-opacity_harf.png);
+}
+.column_3 .box .img_disable .txt {
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.column_3 .box a {
+	display: block;
+}
+.column_3 .box .more {
+	padding: 0px 7px 0px 7px;
+}
+.column_3 .box .category,.column_3 .box .ttl,.column_3 .box .price {
+	text-align: left;
+}
+.column_3 .box .category,.column_3 .box .ttl {
+	font-weight: bold;
+	padding-top: 10px;
+}
+.column_3 .box .category {
+	font-size: 12px;
+}
+.column_3 .box .ttl {
+	font-size: 18px;
+}
+.column_3 .box .price {
+	font-size: 12px;
+	padding-top: 8px;
+}
+.column_3 .box .detail {
+	padding-top: 12px;
+}
+.column_3 .box .detail td {
+	height: 45px;
+	width: 48%;
+}
+.column_3 .box .detail td a,.column_3 .box .detail td .btn_disable {
+	font-weight: bold;
+}
+.column_3 .box .detail td a:hover {
+	background-color: #473727;
+	opacity: 1;
+}
+.column_3 .box .detail td .btn_disable {
+	opacity: 0.5;
+	cursor: default;
+}
+.column_3 .box .detail td .btn_disable:hover {
+	background-color: #948472;
+	opacity: 0.5;
+}
+
+/*メイン検索ボックス
+---------------------------------------------------------------------------*/
+
+.control_search {
+	margin-bottom: 40px;
+}
+.control_search td {
+	vertical-align: middle;
+}
+.control_search th {
+	width: 13px;
+}
+.control_search td.search_keyword {
+	width: 280px;
+}
+.control_search .search_category,.control_search .search_project {
+	width: 220px;
+}
+.control_search select {
+	width: 100%;
+}
+.control_search .search_arrow {
+	text-align: center;
+	width: 50px;
+}
+.search_result_ttl {
+	font-size: 15px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+.search_result_sort {
+	text-align: right;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.search_result_sort a.active {
+	color: #DA5443;
+}
+
+/*（右ブロック）カテゴリーメニュー
+---------------------------------------------------------------------------*/
+
+#category_menu {
+	overflow: hidden;
+	clear: both;
+}
+#category_menu .menu_logo {
+	float: left;
+	width: 77px;
+}
+#category_menu .menu_outline {
+	float: left;
+	width: 250px;
+	margin-left: auto;
+	position:relative;
+}
+#category_menu .menu {
+	border-bottom: 6px solid #948472;
+}
+#category_menu h3 {
+	border-bottom: 6px solid #948472;
+}
+#category_menu .ttl {
+	cursor: pointer;
+	background-image: url(../../image/project/common/bg-arrow_lower.png);
+	background-repeat: no-repeat;
+	background-position: 97% center;
+	padding: 10px 25px 10px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#category_menu h3 {
+	cursor: pointer;
+	background-image: url(../../image/project/common/bg-arrow_lower.png);
+	background-repeat: no-repeat;
+	background-position: 97% center;
+	padding: 10px 25px 10px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#category_menu .ttl.active{
+	background-image: url(../../image/project/common/bg-arrow_upper.png);
+}
+#category_menu .list {
+	display: none;
+}
+#category_menu .list ul {
+	padding: 10px 0px 10px 0px;
+}
+.accordion-block {
+	display: block;
+	z-index: 100;
+}
+#category_menu .list li {
+	font-size: 13px;
+	line-height: 2.5em;
+}
+.accordion-block dl {
+	display: block;
+	position:relative;top:-6px;
+	border-bottom: 6px solid #948472;
+	/*padding: 10px 0px 10px 0px;*/
+}
+.accordion-block dl dt {
+	font-size: 13px;
+	line-height: 1.5em!important;
+	padding: 10px 0 10px 15px;
+	border-bottom: solid 1px #948472;
+}
+#category_menu .other_link {
+	padding-top: 30px;
+}
+
+
+/*購入方法バナー
+---------------------------------------------------------------------------*/
+.howtobuy { padding:30px 0 0; text-align:center; }
+
+
+
+/*ページャー
+---------------------------------------------------------------------------*/
+
+.pager {
+	width: 990px;
+	clear: both;
+	margin: 0px auto 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.pager th,.pager td {
+	vertical-align: middle;
+	text-align: center;
+}
+.pager th {
+	width: 57px;
+}
+.pager td li {
+  	display: inline-block;
+  	margin-right: 6px;
+	margin-left: 6px;
+	width: 46px;
+	height: 46px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #948472;
+}
+.pager td li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 46px;
+	color: #FFFFFF;
+}
+.pager td li a:hover {
+	background-color: #473727;
+	opacity: 1;
+}
+
+/* レコメンド
+---------------------------------------------------------------------------*/
+
+#recommend {
+	overflow: hidden;
+	background-image: url(../../image/common/contents/bg-line_tate.png);
+	background-position: center top;
+	background-repeat: repeat-y;
+	width:95%;
+	margin:auto;
+}
+#recommend .main_ttl {
+	margin-bottom: 40px;
+}
+#recommend .left_contents,#recommend .right_contents {
+	width: 470px;
+}
+#recommend .left_contents {
+	float: left;
+}
+#recommend .right_contents {
+	float: right;
+}
+#recommend th {
+	width: 235px;
+}
+#recommend .category {
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+#recommend .ttl {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+#recommend .price {
+	padding-bottom: 20px;
+}
+
+/* 追記
+---------------------------------------------------------------------------*/
+/*キャプション*/
+.alrt {	
+	font-size: 80%;
+}
+/*レコメンド内NEWアイコン*/
+#recommend th {
+	position: relative;
+}
+#recommend th .icon_new {
+	position: absolute;
+	width: 29px;
+	top: 9px;
+	right: 50px;
+}
+/**/
+.status {
+	display: inline;
+	width: auto;
+	white-space: nowrap;
+	border: 2px solid #da5443;
+	margin: 0 3px 0 0;
+	padding: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #da5443;
+	background: #ffffff;
+}

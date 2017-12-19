@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+#project_list{
+	width:1000px;
+	margin:0 auto;
+}
+
+#project_list .contents {
+	width: 100%;
+}
+
+/*プロジェクトタイトル
+---------------------------------------------------------------------------*/
+
+.project_ttl {
+	margin-bottom: 35px;
+}
+.project_ttl th {
+	width: 175px;
+}
+.project_ttl td {
+	vertical-align: middle;
+}
+.project_ttl td h1 {
+	padding: 0px;
+}
+
+/*プロジェクトについて
+---------------------------------------------------------------------------*/
+
+#about_project {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#about_project .exp {
+	float: left;
+	width: 550px;
+}
+#about_project .sam {
+	float: right;
+	width: 350px;
+}
+
+/*プロジェクトリスト
+---------------------------------------------------------------------------*/
+
+#project_contents table {
+	margin-bottom: 25px;
+}
+#project_contents table;last-child {
+	margin-bottom: 0px;
+}
+#project_contents th,#project_contents td {
+	padding-bottom: 25px;
+	border-bottom: 1px solid #221714;
+}
+#project_contents th {
+	width: 400px;
+}
+#project_contents .sam {
+	width: 360px;
+	height: 210px;
+	text-align: center;
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+
+#project_contents .sam a{}
+
+#project_contents .sam:hover{
+	background-color: #dfdbcf;
+}
+
+#project_contents .sam img{
+	width: 340px;
+	height: 190px;
+}
+#project_contents .num {
+	padding-top: 10px;
+	font-weight: bold;
+}
+#project_contents .num ul {
+    display: table;
+}
+#project_contents .num li {
+    display: table-cell;
+    vertical-align: middle;
+	padding-right: 12px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#project_contents h3 {
+	font-size: 23px;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-weight: normal;
+	padding-top: 25px;
+}
+#project_contents .address {
+	font-size: 16px;
+	padding-top: 5px;
+}
+#project_contents .detail {
+	overflow: hidden;
+	padding-top: 20px;
+}
+#project_contents .category {
+	font-size: 17px;
+	color: #938372;
+	float: left;
+	width: 370px;
+	overflow: hidden;
+}
+#project_contents .category ul {
+	overflow: hidden;
+	padding-top: 8px;
+}
+#project_contents .category li {
+	float: left;
+	color: #7C6F5F;
+	font-size: 14px;
+	border-right: 1px solid #938372;
+	padding: 0px 7px 0px 7px;
+	line-height: 1em;
+}
+#project_contents .category li a {
+	color: #7C6F5F;
+}
+#project_contents .category li:first-child {
+	border-left: 1px solid #938372;
+}
+#project_contents .detail_btn {
+	float: right;
+	width: 220px;
+	line-height: 56px;
+}
+#project_contents a.btn {
+	line-height: 52px;
+	font-size: 16px;
+}
+
+.pager table tr td a img{
+	/*background-color:#000000;*/
+	}

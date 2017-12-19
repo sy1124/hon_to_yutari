@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document　'goods' */
+
+/*検索結果
+---------------------------------------------------------------------------*/
+
+.search_result {
+	overflow: hidden;
+	border-bottom: 1px solid #101010;
+	padding-bottom: 30px;
+}
+
+.search_result .column_3 {
+	width: 1000px;
+	box-pack: justify;
+    -moz-box-pack: justify;
+    -webkit-box-pack: justify;
+    -o-box-pack: justify;
+    -ms-box-pack: justify;
+}
+
+.column_3.fixHeight{
+	overflow: hidden;
+	background-image: url(../../data-common/image/contents/blank.png), url(../../data-common/image/contents/blank.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, right bottom;
+
+}
+
+.column_3.fixHeight .box{
+	width:298px;
+	margin-bottom: 60px;
+
+	}
+
+.column_3.fixHeight .box:nth-child(3n+1){
+	margin-left:0px;
+	margin-right:0px;
+	clear: both;
+	}
+
+.column_3.fixHeight .box:nth-child(3n+2){
+	margin-left:50px;
+	margin-right:50px;
+	}
+
+.column_3.fixHeight .box:nth-child(3n+3){
+	margin-left:0px;
+	margin-right: 0px;
+	}
+
+.search_result .column_3 .box .inner {
+	padding: 9px 9px 9px 9px;
+}
+.search_result .column_3 .box .icon_new {
+	right: 25px;
+}
+.column_3.fixHeight .box .more a:hover{
+	opacity: 0.6;
+}
+/*ページネーション
+_______________________________________________________________________*/
+ul.page-numbers{
+	margin:0 auto; width:600px; font-size:0; text-align:center; padding:0;
+
+}
+ul.page-numbers li {
+	display:inline-block; padding:0 2px; font-family:Arial, Roboto, 'Droid Sans', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif; font-size:1.8rem;
+}
+#content > ul.page-numbers li .page-numbers { display:block; text-align:center; line-height:36px; color:#FFF; width:36px; height:36px; background:#CCC; border-radius:2px; }
+#content > ul.page-numbers li a.page-numbers { text-decoration:none; background:#666; }
+#content > ul.page-numbers li a.page-numbers:hover { background:#999; }
+#content > ul.page-numbers li .page-numbers.dots { background:none; color:#666; }
+#content > ul.page-numbers li .page-numbers.current { background:#000; }

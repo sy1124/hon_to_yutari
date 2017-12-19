@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*コンテンツ
+---------------------------------------------------------------------------*/
+#contact_contact.main .content_outline{
+	overflow: hidden;
+}
+
+/*フォーム部分
+---------------------------------------------------------------------------*/
+.contents .contact_ttl {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 0px 15px 0px;
+}
+
+.ttl{
+	font-size:16px;
+}
+
+.contents #input_name{
+	margin:5px 0;
+}
+
+.contents #input_name tr
+ {
+	width: 100%;
+}
+
+.contents #Email{
+	margin:10px 0;
+}
+
+.contents #sbj{
+	margin:10px 0;
+}
+.contents #txtarea{
+	margin:10px 0;
+}
+
+.contents textarea {
+	height: 70px;
+}
+
+.contents input[type*="text"],#contact_common textarea {
+	border: none;
+}
+.contents input[type*="text"] {
+	padding: 0px 5px 0px 5px;
+}
+.contents .submit {
+	width: 50%;
+	margin: 0px auto 0px auto;
+	padding-top: 15px;
+}
+/*privacy
+---------------------------------------------------------------------------*/
+.other_link{
+	font-size: 13px;
+	margin: 20px auto;
+}
+
+.other_link li{
+	background-image:url(../../data-common/image/contents/bg-arrow_right_w16.png);
+	background-repeat:no-repeat;
+}
+
+
+/*送信エラー画面
+---------------------------------------------------------------------------*/
+#contact_contact.main .content_outline{
+	width: 90%;
+	margin: 0px auto 0px auto;
+}
+#contact_contact .content_outline .contact_ttl{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 0px 15px 0px;
+}
+
+#contact_contact .content_outline .red{
+	margin: 10px 0;
+}
+
+.content_outline p.error_messe{
+	margin: 5px 0;
+}
+
+.content_outline .ord2{
+	width: 50%;
+	margin: 0px auto 0px auto;
+	padding-top: 15px;
+}
+
+.ord2 input[type*="button"], .ord2 input[type*="submit"] {
+	display: block;
+	width: 100%;
+	background-color: #948472;
+	border: 1px solid #948472;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+}

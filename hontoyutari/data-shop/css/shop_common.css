@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*メイン検索ボックス
+---------------------------------------------------------------------------*/
+
+.control_search {
+	margin-bottom: 40px;
+}
+.control_search td {
+	height: 48px;
+	vertical-align: middle;
+	display: table-cell;
+}
+.control_search th {
+	width: 13px;
+}
+.control_search td.search_keyword {
+	width: 280px;
+}
+.control_search .search_category,.control_search .search_project {
+	width: 220px;
+}
+.control_search select {
+	width: 100%;
+}
+.control_search .search_arrow {
+	text-align: center;
+	width: 50px;
+}
+.search_result_ttl {
+	font-size: 15px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+.search_result_sort {
+	text-align: right;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.search_result_sort a.active {
+	color: #DA5443;
+}
+
+/*検索結果
+---------------------------------------------------------------------------*/
+
+.search_result {
+	overflow: hidden;
+	border-bottom: 1px solid #101010;
+	padding-bottom: 30px;
+}
+.search_result .column_3 {
+	width: 1020px;
+	margin-left: -20px;
+}
+.search_result .column_3 .box {
+	width: 320px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+.search_result .column_3 .box .inner {
+	padding: 16px 0px 16px 0px;
+}
+.search_result .column_3 .box .icon_new {
+	right: 27px;
+}
+.search_result .column_3 .box .shop_category {
+	text-align: right;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	word-wrap: break-word;
+}
+.search_result .column_3 .box .shop_name {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+.search_result .column_3 .box .shop_address {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 12px;
+}

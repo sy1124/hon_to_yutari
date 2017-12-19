@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+
+.main .contents {
+	width: 87.5%;
+}
+.shop_entry img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+}
+.shop_entry h1 {
+	font-size: 150%;
+	margin-bottom: 3px;
+}
+.shop_entry .shop_exp {
+	font-size: 92%;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.shop_entry h2 {
+	font-size: 108%;
+	margin-bottom: 25px;
+}
+.shop_entry p {
+	font-size: 108%;
+	margin-bottom: 15px;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+.shop_entry .attention {
+	font-size: 83%;
+}
+
+.shop_entry p em{
+  font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+  font-style: normal;
+}
+
+/*記事下詳細ボタン
+---------------------------------------------------------------------------*/
+
+#detail_btn {
+	width: 64%;
+	margin: 0px auto 0px auto;
+}
+#detail_btn a {
+	margin-bottom: 7px;
+}
+
+
+/*検索結果→詳細画面 アイテム情報 オーバーライド
+---------------------------------------------------------------------------*/
+
+#item_info {
+	width: auto;
+}
+/*書籍
+---------------------------------------------------------------------------*/
+#shoseki {
+	border-bottom: 1px solid #221714;
+	margin: 0 auto 25px auto;
+	padding: 0 10px 20px 10px;
+}
+#shoseki .title{
+	font-size: 14px;
+	font-weight: bold;
+}
+#shoseki .hanbai ,#shoseki .mihon{
+	padding: 8px 0;
+}
+
+#shoseki li{
+	list-style: disc;
+	margin: 0 0 10px 15px;
+}
+/*レコメンド
+---------------------------------------------------------------------------*/
+#recommend .ttl{
+	font-size: 1.3em;
+	padding-bottom: 7px;
+}
+
+#recommend th{
+	width: 50%;
+	height: 50%;
+}
+
+#recommend td.btn{
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#recommend tr .buy_btn{
+  margin: 15px auto;
+}
+
+#recommend span.btn_disable{
+	width:118px;
+	height: 30px;
+	margin: 0 auto;
+}

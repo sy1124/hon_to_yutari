@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+
+/*フォーム（共通）
+---------------------------------------------------------------------------*/
+
+input {
+	vertical-align: middle;		/*radiobutton、checkboxのテキストのズレ修正*/
+}
+input[type*="text"],textarea {
+	border: 1px solid #D6D6D6;
+	padding: 0px 5px 0px 5px;
+	width: 100%;
+	vertical-align: middle;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+input[type*="text"],textarea {
+	line-height: 42px;
+	height: 42px;				/*IE*/
+	font-size: 16px;
+}
+#contact_common .sml input {
+	width: 3em!important;
+	padding: 0 0 0 5px!important;
+	margin: 5px 0!important;
+}
+#contact_common .sml2 input {
+	width: 4em!important;
+	padding: 0 0 0 5px!important;
+	margin: 5px 0!important;
+}
+#contact_common .sml3 input {
+	width: 8em!important;
+	padding: 0 0 0 5px!important;
+	margin: 5px 0!important;
+}
+#contact_common  textarea {
+	line-height: 1.2em;
+}
+#contact_common .thin textarea {
+	height: 6em;
+}
+
+/**/
+.ord {
+	width: 180px;
+	display: inline;
+}
+.ord input[type*="button"],.ord input[type*="submit"] {
+	/*display: block;*/
+	width: 180px;
+	background-color: #948472;
+    border: 1px solid #948472;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor: pointer;
+}
+
+/*セレクトボックスボックスをオリジナルに
+---------------------------------------------------------------------------*/
+
+select {
+	cursor: pointer;
+}
+.customSelect {						/* デフォルト時のスタイルを記述します。 */
+	border: 1px solid #D6D6D6;
+	background-color: #FFFFFF;
+	height: 42px;
+	font-size: 16px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.customSelectInner {				/* セレクトボックスの中のスタイルを記述します。※矢印等の画像は背景画像としてここに記述します。 */
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url(../image/contents/bg-form_select_box.png);
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 0px 40px 0px 5px;
+}
+.customSelect.customSelectHover .customSelectInner {	/* マウスオーバー時のスタイルを記述します。 */
+	background-image: url(../image/contents/bg-form_select_box_hover.png);
+}
+span.customSelect, span.customSelectInner{
+	overflow: hidden;
+	vertical-align: middle;
+}
+/*メイン検索ボックス（オーバーライド）
+---------------------------------------------------------------------------*/
+
+.control_search th {
+	width: 8px;
+}
+.control_search td.search_keyword {
+	width: 230px;
+}
+.control_search .search_prefecture,.control_search .search_area {
+	width: 170px;
+}
+.control_search .search_category{
+	width: 230px;
+}
+.search_result_ttl {
+	margin-bottom: 10px;
+}
+.control_search .search_arrow{
+	width: 50px;
+	text-align: center;
+}
+
+/*検索ボックス
+---------------------------------------------------------------------------*/
+table tr td.search_keyword{
+  width: 300px;
+  height: 40px;
+}
+
+.control_search .search_category,.control_search .search_project{
+  width: 250px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.control_search .fmselect{
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(../image/contents/bg-form_select_box.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.control_search .search_category .fmselect:hover{
+  background-image: url(../image/contents/bg-form_select_box_hover.png);
+}
+
+.control_search td {
+	height: 48px;
+	vertical-align: middle;
+	display: table-cell;
+  text-align: center;
+}
+
+span.customSelect, span.customSelectInner{
+  width: 230px !important;
+}

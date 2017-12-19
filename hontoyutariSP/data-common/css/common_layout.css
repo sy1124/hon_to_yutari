@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+
+/*基本設定
+---------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #231815;
+	list-style-type: none;
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	line-height: 1.4em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;					/*スマートフォンの横向き時に文字が大きくなるのを防ぐ none指定は避ける*/
+	-webkit-tap-highlight-color: rgba(0,0,0,0);		/*iphoneで画像タップの反転消す*/
+}
+img  {
+	border: none;
+	vertical-align: middle;
+}
+html {
+    overflow-y: scroll;
+	background-color:#EEEEEE;
+}
+body {
+	font-size: 12px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #41403E;
+}
+@media screen and (min-width: 481px) {
+body {
+	font-size: 16px;
+}
+}
+body a {
+	text-decoration: none;
+	color: #41403E;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+th,td {
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+h1,h2,h3 {
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-size: 100%;
+}
+h2 {
+	color: #DB5443;
+}
+h1 {
+	font-size: 23px;
+	padding: 25px 0px 20px 0px;
+}
+/*ラッパー
+---------------------------------------------------------------------------*/
+
+#wrapper {
+	padding-top: 38px;
+}
+
+/*ヘッダー
+---------------------------------------------------------------------------*/
+
+#header_outline {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	height: 38px;
+	z-index: 9999;
+	background-color: #FFFFFF;
+	top: 0px;
+}
+#logo {
+	padding-top: 5px;
+}
+#sub_nav {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 38px;
+	border-left: 1px solid #000000;
+}
+#toggle_menu {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+	z-index: 9999;
+	background: rgba(255,255,255,0.9);
+	display: none;
+}
+
+#toggle_menu ul li{
+	z-index: 99999;
+	position: relative;
+}
+
+#toggle_menu li.active {
+	background: rgba(34,23,20,0.3);
+}
+#toggle_menu li a {
+	display: block;
+	text-align: left;
+	padding: 12px 0px 12px 20px;
+}
+
+/*メイン
+---------------------------------------------------------------------------*/
+
+.main {
+	width: 100%;
+	background-image: url(../image/contents/bg-main.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-size: 36px 2px;
+	background-color: #EEEEEE;
+	padding-top: 25px;
+}
+.main .contents {
+	width: 90%;
+	margin: 0px auto 0px auto;
+}
+
+@media screen and (min-width: 481px) {
+.main .contents {
+	zoom: 1.5;
+}
+}
+article {
+	background-image: url(../image/contents/bg-page_top_left.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: 135px 81px;
+}
+section {
+	background-image: url(../image/contents/bg-page_top_right.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 135px 81px;
+}
+#page_top {
+	clear: both;
+	text-align: center;
+	padding: 50px 0px 8px 0px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+/*フッター
+---------------------------------------------------------------------------*/
+
+#footer_nav {
+	font-size: 58%;
+	padding: 15px 0px 20px 0px;
+	background-color: #000000;
+}
+@media screen and (min-width: 481px) {
+#footer_nav {
+	zoom: 1.5;
+}
+}
+#footer_nav ul,#footer_nav p {
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+#footer_nav p{
+	text-align:center;
+}
+#footer_nav ul{
+	margin:0 auto 7px;
+	width:90%;
+}
+#footer_nav li {
+	float: left;
+	margin: 3px 5px;
+}
+#footer_nav li:last-child {
+	margin-right: 0px;
+}
+#footer_nav ul li a img{
+	height:15px;
+}

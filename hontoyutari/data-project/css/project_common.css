@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*カテゴリーメニュー
+---------------------------------------------------------------------------*/
+#category_menu{
+  width: 350px;
+  overflow: hidden;
+}
+span.menu_logo{
+  display: inline-block;
+  width: 77px;
+  float: left;
+}
+
+.menu_outline{
+  width: 255px;
+  float: right;
+  margin: 8px;
+}
+.menu_outline dl dt a{
+  color:#333;
+	text-decoration:none;
+  display: block;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+.menu_outline dl{
+  margin:0 0 5px;
+  padding:0;
+  width:255px;
+  border-bottom:3px solid #473727;
+  background:#FFF;
+}
+
+.menu_outline dl dt{
+  margin:0;
+	padding:0 30px 0 10px;
+	font-weight:bold;
+	font-size:13px;
+	line-height:30px;
+	height:30px;
+	position:relative;
+}
+
+dl dt span {
+	display:block;
+	cursor:pointer;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+	line-height:30px;
+	width:30px;
+	height:30px;
+	background:#473727;
+	position:absolute;
+	top:0;
+	right:0;
+}
+dl dd {
+	margin:0;
+	padding:5px 10px 0 10px;
+	display:none;
+}
+dl dd ul {
+	margin:0 0 0 1em;
+	padding:0;
+}
+dl dd ul li {
+  font-size:12px;
+	list-style:disc;
+	margin:0 0 5px;
+	padding:0;
+}
+dl dd ul li a:hover {
+	text-decoration:underline;
+}

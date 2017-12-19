@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+
+#shop_index .contents {
+}
+
+/*メイン検索ボックス（オーバーライド）
+---------------------------------------------------------------------------*/
+
+.control_search th {
+	width: 8px;
+}
+.search_result_ttl {
+	margin-bottom: 10px;
+}
+/*
+.control_search .search_category .fmselect{
+	position: absolute;
+	opacity: 0;
+	height: 42px;
+	font-size: 16px;
+}
+
+.control_search .search_prefecture .fmselect,
+.control_search .search_area .fmselect{
+	position: absolute;
+	opacity: 0;
+	height: 42px;
+	font-size: 16px;
+}
+
+*/
+/*検索結果
+---------------------------------------------------------------------------*/
+
+.search_result {
+	overflow: hidden;
+	border-bottom: 1px solid #101010;
+	padding-bottom: 30px;
+}
+.search_result .column_3 {
+	width: 1000px;
+	margin-left: 0px;
+	overflow: hidden;
+	background-image: url(../../data-common/image/contents/blank3.png), url(../../data-common/image/contents/blank3.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, right bottom;
+
+}
+.search_result .column_3 .box {
+	width: 300px;
+	margin-bottom:40px;
+}
+
+.search_result .column_3 .box:nth-child(3n+1){
+	margin-left:0px;
+	clear: both;;
+}
+
+.search_result .column_3 .box:nth-child(3n+2){
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.search_result .column_3 .box:nth-child(3n+3){
+	margin-right:0px;
+	margin-left: 0px;
+}
+
+.search_result .column_3 .box .inner {
+	padding: 10px 10px 10px 10px;
+}
+.search_result .column_3 .box .icon_new {
+	right: 27px;
+}
+.search_result .column_3 .box .shop_category {
+	text-align: right;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	word-wrap: break-word;
+}
+.search_result .column_3 .box .shop_name {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+.search_result .column_3 .box .shop_address {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*ページネーション
+_______________________________________________________________________*/
+.pager_box{
+	margin: 0 auto 40px;
+	width:1000px;
+	text-align:center;
+	font-size:0;
+	padding:0;
+	overflow: hidden;
+}
+.page-numbers{
+	font-family:Arial, Roboto, 'Droid Sans', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+	font-size:1.8rem;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	margin: 0 5px;
+}
+
+.page-numbers img{
+	vertical-align: bottom;
+}
+
+a.page-numbers {
+	background: #948472;
+}
+
+a.page-numbers:not(.prev):not(.next):hover{
+	background-color: #473727;
+}
+
+
+span.page-numbers {
+}
+
+a.prev{
+	float: left;
+	background-color: #EFEFEF;
+	margin: 0;
+}
+a.next{
+	float: right;
+	background-color: #EFEFEF;
+	margin: 0;
+}
+/*a.prev:hover{
+	background-color: #EFEFEF;
+}
+
+a.next:hover{
+	background-color: #EFEFEF;
+}*/
+
+span.current{
+	background-color: #473727;
+}
+span.dots{
+	background: none;
+	color: #473727;
+}
+/*メイン検索ボックス（オーバーライド）
+---------------------------------------------------------------------------*/
+
+.control_search th {
+	width: 8px;
+}
+.control_search td.search_keyword {
+	width: 230px;
+}
+.control_search .search_prefecture,.control_search .search_area {
+	width: 170px;
+}
+.control_search .search_category{
+	width: 230px;
+}
+.search_result_ttl {
+	margin-bottom: 10px;
+}

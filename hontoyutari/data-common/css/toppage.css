@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+/*トップスライダー設定 オンラインストアボタン
+---------------------------------------------------------------------------*/
+
+.opa a:hover,a.opa:hover {
+	background-color: #FFFFFF;
+    display: inline-block;
+    opacity: 0.9;
+	filter: alpha(opacity=90);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=90)";  /* ie 8 */
+}
+.opa a:hover img,a.opa:hover img {
+    opacity: 0.6;
+	filter: alpha(opacity=60);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=60)";  /* ie 8 */
+}
+
+/*メインメニュー
+---------------------------------------------------------------------------*/
+
+#main_menu {
+	width: 570px;
+	margin: 0px auto 0px auto;
+	padding: 30px 0px 45px 0px;
+}
+#main_menu table {
+   table-layout: fixed;
+   width: 100%;
+}
+#main_menu td {
+	text-align: center;
+}
+
+/*プロジェクト
+---------------------------------------------------------------------------*/
+
+#project {
+	width: 1000px;
+	margin: 0px auto 50px auto;
+	overflow: hidden;
+}
+
+#project .column_3 .box:nth-child(3n+1){
+	margin-left:0px;
+	margin-right:0px;
+	clear: both;
+}
+
+#project .column_3 .box:nth-child(3n+2){
+	margin-left:30px;
+	margin-right:30px;
+}
+
+#project .column_3 .box:nth-child(3n+3){
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#project .column_3 .box .inner h1 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 360px;
+	font-size: 22px;
+	padding: 0px;
+}
+#project .column_3 .box .category {
+	padding: 20px 0px 15px 0px;
+	border-bottom: 1px solid #231815;
+}
+#project .column_3 .box .category th {
+	width: 260px;
+}
+#project .column_3 .box .category li {
+	float: left;
+	border-right: 1px solid #938372;
+	padding: 0px 7px 0px 7px;
+}
+#project .column_3 .box .category li:first-child {
+	border-left: 1px solid #938372;
+}
+#project .column_3 .box .category li a {
+	color: #7C6F5F;
+}
+
+/*本とゆたりの商品
+---------------------------------------------------------------------------*/
+
+#book_goods {
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+#book_goods .column_3 {
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:none;
+}
+#book_goods .column_3 .box {
+	width: 288px;
+	height:370px;
+	background-color: #FFFFFF;
+}
+
+#book_goods .column_3 .box:nth-child(1){
+	margin-right:auto;
+	margin-left:0px;
+}
+
+#book_goods .column_3 .box:nth-child(2){
+	clear:none;
+	margin-left:60px;
+	margin-right:60px;
+}
+
+#book_goods .column_3 .box:nth-child(3){
+	float:right;
+	margin-right:0px;
+}
+
+#book_goods .column_3 .box .inner {
+	padding: 14px 0px 14px 0px;
+}
+#book_goods .column_3 .box .icon_new {
+	right: 20px;
+}
+#book_goods .column_3 .box .category {
+	padding-top: 15px;
+}
+#book_goods .column_3 .box .more {
+	padding: 0px 14px 0px 14px;
+}
+
+#book_goods .main_ttl img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*ショップリスト
+---------------------------------------------------------------------------*/
+
+#shop_list {
+	width: 1000px;
+	margin: 0px auto 280px auto;
+	overflow: hidden;
+}
+#shop_list .column_3 .box {
+	width:320px;
+	height:237px;
+		position: relative;
+}
+
+#shop_list .column_3 .box:nth-child(1){
+}
+
+#shop_list .column_3 .box:nth-child(2){
+	clear:none;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#shop_list .column_3 .box:nth-child(3){
+	float:right;
+}
+
+#shop_list .column_3 .box .inner {
+	padding: 15px 0px 15px 0px;
+}
+#shop_list .column_3 .box .icon_new {
+	right: 30px;
+}
+#shop_list .column_3 .box .category {
+	padding: 5px 0px 5px 0px;
+	border-bottom: 1px solid #231815;
+}
+#shop_list .column_3 .box .category .shop_category {
+	font-size: 13px;
+	font-weight: bold;
+}
+#shop_list .column_3 .box .category table {
+	width: 290px;
+	margin: 0px auto 0px auto;
+}
+#shop_list .column_3 .box .category td {
+	width: 30px;
+	vertical-align: middle;
+}
+#shop_list .column_3 .box .category th .address {
+	font-size: 13px;
+	padding-top: 10px;
+}
+#shop_list .main_ttl img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*店舗名オーバーレイ表記*/
+.inshopbox {
+	margin:0;
+	padding:0;
+	margin: 0 0 0 15px;
+	width:290px;
+	height:100%;
+	position: absolute;top:85px;
+}
+.inshopbox span {
+	text-align:center;
+	position: relative;
+	width: 290px;
+}
+.inshopbox span .inshop {
+	width:auto;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.0;
+	padding: 5px 0;
+	margin: 0 20px;
+	text-align: center;
+	color: #ffffff;
+	background-color: rgba( 0, 0, 0, 0.5 );
+}

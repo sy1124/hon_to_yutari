@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*コンテンツ
+---------------------------------------------------------------------------*/
+
+.main h1,.main h2 {
+	font-size: 133%;
+	margin-bottom: 15px;
+	color: #41403E;
+}
+.main h3 {
+	font-size: 108%;
+	margin-bottom: 15px;
+}
+.main p {
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	margin-bottom: 25px;
+	font-size: 108%;
+}
+.address {
+	font-size: 15px;
+	margin-bottom: 20px;
+	line-height: 1em;
+	font-weight: bold;
+}
+#about.main .contents h2{
+	font-size: 18px;
+	padding-bottom: 25px;
+	color: #DB5443;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-weight: normal;
+}
+
+
+#about.main .contents{
+	overflow:hidden;
+}
+
+#about.main .contents .about_p{
+	float:right;
+}
+
+#about.main .contents .about_p img{
+	float: left;
+	margin-right:5px;
+}
+
+#about.main .contents hr{
+	 border: none;
+	 border-bottom: solid 1px #aaaaaa;
+	 margin-top: 30px;
+	 margin-bottom: 30px;
+}
+
+#about_shop{
+	width: 90%;
+	border-bottom: 1px solid #564e4c;
+	border-top: 1px solid #564e4c;
+	margin: 0px auto 25px auto;
+	padding: 20px 10px 0px 10px
+}
+#about #about_shop h3 {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+#about_shop .exp {
+		font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    line-height: 1.5em;
+		margin-top: 5px;
+		margin-bottom: 10px;
+}

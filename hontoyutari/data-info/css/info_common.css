@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+
+#info_common .contents_column {
+	width: 100%px;
+	background-position: 612px top;
+}
+#info_common .contents_column .left_block {
+	width: 612px;
+}
+#info_common .contents_column .left_block_inner {
+	width: 522px;
+}
+#info_common .contents_column .right_block {
+	width: 350px;
+}
+
+/*フォーム部分
+---------------------------------------------------------------------------*/
+
+#info_common .contact_ttl {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 0px 35px 0px;
+}
+#info_common .ttl {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px 0px 10px 0px;
+}
+#info_common input[type*="text"],#info_common textarea {
+	border: none;
+}
+#info_common input[type*="text"] {
+	padding: 0px 15px 0px 15px;
+}
+#info_common .submit {
+	width: 180px;
+	margin: 0px auto 0px auto;
+	padding-top: 25px; 
+}
+
+/*（右ブロック）本詳細
+---------------------------------------------------------------------------*/
+
+#info_common  #yutari_exp {
+	border-top: 1px solid #564E4C;
+	padding: 20px 0px 40px 0px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #564E4C;
+}
+#info_common  #yutari_exp h1 {
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.8em;
+	padding-bottom: 25px;
+}
+#info_common  #yutari_address {
+	font-size: 13px;
+	line-height: 1.8em;
+}

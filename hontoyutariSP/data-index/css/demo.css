@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*スライダ
+---------------------------------------------------------------------------*/
+
+#wrapper #slider_logo{
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	z-index: 100;
+	top: 53px;
+	left: 24%;
+}
+
+#wrapper #store_btn{
+	position: absolute;
+	width: 30%;
+	text-align: center;
+	z-index: 100;
+	top: 253px;
+	left: 34%;
+}
+#wrapper ul.bxslider {
+padding: 0;
+margin: 0;
+overflow: hidden;
+height: 253px;
+}
+
+#wrapper ul.bxslider > li{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}

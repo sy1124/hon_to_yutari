@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*コンテンツ
+---------------------------------------------------------------------------*/
+.ttl {
+	font-size: 20px;
+	padding: 0px 0px 20px 0px;
+	font-weight: normal;
+}
+.ttl2 {
+	font-size: 18px;
+	padding: 0px 0px 20px 0px;
+	font-weight: normal;
+}
+
+#topicBox{
+	margin: 20px 0;
+}
+#topicBox #timeBox{
+	margin: 3px 0;
+}
+
+#topicBox h3{
+	font-size: 13px;
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	font-weight: bold;
+	margin: 3px;
+}
+
+#entryBox{
+	padding: 0 5px;
+	text-indent: 5px;
+	margin: 5px 0;
+}
+/*ページャー
+______________________________________________________________________________*/
+.pager_box{
+	clear: both;
+	padding: 10px 0 10px;
+	border-top: 1px solid #000000;
+	margin: 5px auto 5px;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+	overflow: hidden;
+}
+/*リストブロック
+______________________________________________________________________________*/
+.list_block{
+	margin: 15px 0;
+	padding: 0 20%;
+	position: relative;
+}
+.list_block .fmselect{
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	background-size: 30px 30px;
+	background-position: right center;
+	background-color: #FFFFFF;
+	background-image: url(../../data-common/image/common_form/bg-arrow_lower_brown_w60.png);
+	background-repeat: no-repeat;
+	border: 1px solid #C8C8C8;
+	height: 30px;
+	width: 100%;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-indent: 1em;
+	font-size: 18px;
+	position: absolute;
+	}
+
+	span.customSelectInner{
+		width: 100%;
+		font-size: 150%;
+		padding: 4px 0;
+	}

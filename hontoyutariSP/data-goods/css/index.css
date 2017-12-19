@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*検索結果（オーバーライド）
+---------------------------------------------------------------------------*/
+
+#goods_index.main .search_result .box{
+	}
+#goods_index.main .column_2 fixHeight{
+	overflow:hidden;
+	}
+#goods_index.main .search_result .box:nth-child(2n){
+	float:right;
+	margin:0 0 20px;
+	}
+
+#goods_index.main .search_result .box:nth-child(2n+1){
+	float:left;
+	margin:0 0 20px 12px;
+	clear: both;
+	}
+
+#goods_index.main .search_result .box .ttl.fixHeightChild_03{
+	font-size: 1em;
+	}
+
+#goods_index.main .search_result .box .price.fixHeightChild_04{
+	line-height: 14px;
+}

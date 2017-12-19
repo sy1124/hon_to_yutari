@@ -1,0 +1,217 @@
+@charset "utf-8";
+/*スライダ
+---------------------------------------------------------------------------*/
+
+#wrapper #slider_logo{
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	z-index: 100;
+	top: 53px;
+	left: 24%;
+}
+
+#wrapper #store_btn{
+	position: absolute;
+	width: 30%;
+	text-align: center;
+	z-index: 100;
+	top: 253px;
+	left: 34%;
+}
+#wrapper ul.bxslider {
+padding: 0;
+margin: 0;
+overflow: hidden;
+height: 253px;
+}
+
+#wrapper ul.bxslider > li{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+
+/*インフォ
+---------------------------------------------------------------------------*/
+#info{
+	margin: 0px -30%;
+	padding: 0 10%;
+	overflow-x: hidden;
+}
+
+#info p{
+	margin: 0 auto 15px;
+	text-align: center;
+}
+
+#info p a img{
+	width: 83vw;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+/*メイン　コンテンツ
+---------------------------------------------------------------------------*/
+
+.main .contents {
+	width: 60%;
+	margin: 0px auto 0px auto;
+}
+.main_ttl {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.main_ttl p {
+	padding-top: 3px;
+	font-size: 75%;
+}
+
+
+/*メインメニュー
+---------------------------------------------------------------------------*/
+
+#main_menu {
+	padding-bottom: 30px;
+}
+#main_menu table {
+   table-layout: fixed;
+   width: 100%;
+}
+#main_menu td {
+	text-align: center;
+	margin: 0 10px;
+}
+
+/*プロジェクト
+---------------------------------------------------------------------------*/
+
+#project {
+	margin-bottom: 20px;
+}
+#project .inner {
+	padding: 0px 0px 0px 0px;
+}
+#project .inner h1 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 70%;
+	font-size:1em;
+}
+.box .icon_new {
+	right: 6.25%;
+}
+#project .category {
+	font-size: 0.9em;
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px solid #221714;
+}
+#project .category table {
+	width: 95%;
+}
+#project .category th {
+	width: 80%;
+}
+#project .category td {
+	text-align: right;
+}
+#project .box{
+	margin-bottom: 15px;
+
+}
+#project .box .category li {
+	float: left;
+	border-right: 1px solid #938372;
+	padding: 0px 7px 0px 7px;
+}
+#project .box .category li:first-child {
+	border-left: 1px solid #938372;
+}
+#project .box .category li a {
+	color: #7C6F5F;
+	font-size: 75%;
+}
+
+
+/*本とゆたりの商品・ショップリスト
+---------------------------------------------------------------------------*/
+
+#book_goods {
+	margin: 20px auto;
+}
+#book_goods .box,#shop_list .box {
+	margin-bottom: 15px;
+}
+#book_goods .box .inner,#shop_list .box .inner {
+	padding: 6px;
+}
+#book_goods .box .icon_new,#shop_list .box .icon_new {
+	right: 10%;
+}
+#book_goods .box .category,#shop_list .box .category {
+	border-bottom: 1px solid #221714;
+}
+
+#book_goods .category{
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1ex 1ex;
+}
+
+#shop_list{
+	margin: 20px auto;
+}
+
+#shop_list .box .inner{
+	overflow: hidden;
+	position: relative;
+}
+
+#shop_list .box .inner img{}
+
+#shop_list #snbox{
+  padding: 0;
+  margin: auto;
+	width: 100%;
+  position: absolute;
+  top:40%;
+	left:0%;
+}
+#shop_list #snbox span{
+  text-align: center;
+}
+#shop_list .box .shop_name {
+	width: auto;
+  font-size: 0.9em;
+  font-weight: bold;
+	text-align: center;
+  color:#fff;
+  background-color: rgba( 0, 0, 0, 0.5 );
+  padding: 5px 10px;
+  margin: 0 4ex;
+}
+#shop_list .box .shop_name p {
+	font-size: 58%;
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.5);
+	padding: 3px 7px 3px 7px;
+	display: inline-block;
+}
+/*メディアボックス
+---------------------------------------------------------------------------*/
+#media_box{
+	margin: 20px -15px;
+	overflow: hidden;
+}
+#twtr{
+	margin: 20px auto;
+	text-align: center;
+}
+
+#fb{
+	margin: 20px auto;
+	text-align: center;
+}

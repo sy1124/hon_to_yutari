@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+#project_common{
+	margin:0 auto;
+}
+
+#project_index .contents {
+	width: 998px;
+}
+
+/*メイン検索ボックス（オーバーライド）
+---------------------------------------------------------------------------*/
+
+.control_search th {
+	width: 8px;
+}
+.control_search .search_project,.control_search .search_prefecture,.control_search .search_area {
+	width: 220px;
+}
+
+/*検索結果
+---------------------------------------------------------------------------*/
+
+.search_result {
+	overflow: hidden;
+	/*padding-bottom: 300px;*/
+}
+.search_result .column_3 {
+	width: 100%;
+}
+.search_result .column_3 .line {
+	background-image: url(/image/project/index/bg-line.png);
+	background-repeat: no-repeat;
+	background-position: 19px center;
+	overflow: hidden;
+}
+.search_result .column_3 .box {
+	width: 320px;
+	margin-left: 0px;
+	margin-right: 13px;
+	margin-bottom: 40px;
+	background-color: #FFFFFF;
+}
+.search_result .column_3 .box:nth-child(3){
+	width: 320px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 40px;
+}
+
+
+.column_3 .box .inner h1 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 235px;
+	line-height: 1em;
+	font-size: 21px;
+	padding: 0px;
+}
+.search_result .column_3 .box .icon_new {
+	right: 40px;
+}
+.column_3 .box .more {
+	padding: 10px 20px 15px 20px;
+}
+.column_3 .box .exp {
+	font-size: 13px;
+	line-height: 1.8em;
+}
+.column_3 .box .detail {
+	padding-top: 10px;
+}
+.column_3 .box .detail a.btn {
+	line-height: 50px;
+	font-size: 16px;
+	color:#fff;
+    background-color: #948472;
+	text-align:center;
+}
+.column_3 .box .detail .btn_disable {
+	line-height: 50px;
+	font-size: px;
+	opacity: 0.5;
+    cursor: default;
+}
+.column_3 .box .detail .btn_disable:hover {
+    background-color: #948472;
+    opacity: 0.5;
+}
+
+/*下線ボーダー
+----------------------------------------------------*/
+.search_result {
+	overflow: hidden;
+	border-bottom: 1px solid #101010;
+	padding-bottom: 30px;
+}

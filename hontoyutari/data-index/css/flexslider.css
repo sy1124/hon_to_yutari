@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*トップスライダー設定（flexslider）
+---------------------------------------------------------------------------*/
+
+#top_slider {
+	height: 536px;
+	position: relative;
+	overflow: hidden;
+	text-align:center;
+	/*border-left:solid 1px; #000;*/
+
+}
+#top_slider #slider_01 {
+	position: relative;						/*矢印ボタン左右位置合わせに必要*/
+}
+#top_slider #slider_01 .slides > li {		/* .slidesのセレクタはプログラム上必要。HTMLも消さない */
+	display: none;						/* 制作中は消す */
+}
+#top_slider #slider_logo {
+	position: absolute;
+	width: 1040px;;
+	text-align: center;
+	top: 40px;
+	z-index: 100;
+	left:50%;
+	margin-left:-520px;
+}
+#top_slider #store_btn {
+	position: absolute;
+	width: 1040px;
+	text-align: center;
+	top: 450px;
+	z-index: 100;
+	left:50%;
+	margin-left:-520px;
+}
+
+/*矢印ボタン*/
+#top_slider #slider_01 ul {
+	display: table;
+}
+#top_slider .flex-direction-nav li a {
+	height: 40px;
+	width: 40px;
+	overflow: hidden;						/*text-indent:-9999pxの代用*/
+	text-indent: 100%;						/*text-indent:-9999pxの代用*/
+	white-space: nowrap;					/*text-indent:-9999pxの代用*/
+	position: absolute;
+	z-index: 200;
+	top: 50%;								/*矢印ボタン上下センターの位置合わせに必要*/
+	margin-top: -20px;						/*矢印ボタン上下センターの位置合わせに必要*/
+}
+#top_slider .flex-direction-nav li a.flex-prev {
+	left: 0px;
+	background-image: url(../image/main/btn_l.gif);
+	background-repeat: no-repeat;
+}
+#top_slider .flex-direction-nav li a.flex-next {
+	right: 0px;
+	background-image: url(../image/main/btn_r.gif);
+	background-repeat: no-repeat;
+}

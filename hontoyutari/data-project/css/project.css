@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+
+#project .contents_column {
+	width: 1000px;
+	overflow: hidden;
+}
+
+/*（左ブロック）プロジェクト概要
+---------------------------------------------------------------------------*/
+
+#project_exp {
+	margin-bottom: 30px;
+}
+#project_exp .address {
+	font-size: 15px;
+	margin-bottom: 20px;
+	line-height: 1em;
+	font-weight: bold;
+}
+#project_exp .category {
+	font-size: 17px;
+	color: #938372;
+}
+#project_exp .category ul {
+	overflow: hidden;
+	padding-top: 8px;
+}
+#project_exp .category li {
+	float: left;
+	color: #7C6F5F;
+	font-size: 14px;
+	border-right: 1px solid #938372;
+	padding: 0px 7px 0px 7px;
+	line-height: 1em;
+}
+#project_exp .category li a {
+	color: #7C6F5F;
+}
+#project_exp .category li:first-child {
+	border-left: 1px solid #938372;
+}
+
+/*（右ブロック）プロジェクトについて
+---------------------------------------------------------------------------*/
+
+#about_project {
+	margin-bottom: 40px;
+}
+#about_project .sam {
+	margin-bottom: 20px;
+}
+#about_project h3 {
+	font-size: 15px;
+	padding: 10px 0px 20px 0px;
+}
+#about_project .exp {
+	padding: 15px 20px 15px 20px;
+	border-top: 1px solid #564E4C;
+	border-bottom: 1px solid #564E4C;
+}
+
+/* ブレイクイメージ
+---------------------------------------------------------------------------*/
+
+.break_img {
+	padding: 40px 0px 40px 0px;
+	margin:0 -213px;
+}
+
+.break_img > img{
+  display: block;
+  margin: 0 auto;
+}
+/*コンテンツレイアウト
+---------------------------------------------------------------------------*/
+.main .contents_column .left_block p {
+	line-height: 2em;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.main .contents_column .left_block p a {
+	text-decoration: underline;
+}
+.main .contents_column .left_block {
+	float: left;
+	width: 612px;
+}
+.main .contents_column .left_block_inner {
+	width: 570px;
+}
+
+
+.main .contents_column .right_block {
+	float: right;
+	width: 350px;
+}
+.main_ttl{
+	margin-bottom:35px;
+	text-align:center;
+}
+#page_ttl,.main_ttl {
+	clear: both;
+}
+#page_ttl {
+	margin-bottom: 50px;
+}
+#project_common{
+	width:1040px;
+	margin: 0 auto;
+}
+
+.read_article2{
+	margin: 40px 0;
+}
+
+.read_article2 a.btn{
+	width: 360px;
+	margin: 0px auto 0px auto;
+	line-height: 60px;
+	font-size: 19px;
+	font-weight: bold;
+}
+/*レコメンド（オーバーライド）
+_____________________________________________________________________________*/
+#recommend .left_contents span.btn_disable{
+	display: block;
+	width: 200px;
+	height: 44px;
+	background-color: #C2BAB1;
+	border: 1px solid #C2BAB1;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-weight: lighter;
+	padding: 8px 0;
+}
+#recommend .right_contents span.btn_disable{
+	display: block;
+	width: 200px;
+	height: 44px;
+	background-color: #C2BAB1;
+	border: 1px solid #C2BAB1;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-weight: lighter;
+	padding: 8px 0;
+}
+#recommend .left_contents table tr td a:hover{
+	opacity: 0.6;
+}
+
+#recommend .right_contents table tr td a:hover{
+	opacity: 0.6;
+}

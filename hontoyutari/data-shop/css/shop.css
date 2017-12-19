@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+#shop.main .content_outline{
+	overflow: hidden;
+	background-image: url(../../data-common/image/contents/bg-column_line_tate.png);
+	background-repeat: repeat-y;
+	background-position: 615px top;
+
+}
+#shop .content_outline {
+	background-position: 612px top;
+}
+#shop .content_outline .left_block {
+	width: 612px;
+}
+#shop .content_outline .left_block_inner {
+	width: 560px;
+}
+#shop .content_outline .left_block h1 {
+	padding: 0px 0px 15px 0px;
+}
+#shop .content_outline .left_block .shop_exp {
+	font-size: 15px;
+	padding-bottom: 35px;
+	font-weight: bold;
+}
+#shop .content_outline .left_block h2 {
+	padding: 0px 0px 35px 0px;
+}
+#shop .content_outline .left_block p {
+	margin-bottom: 35px;
+}
+#shop .content_outline .left_block img {
+}
+#shop .content_outline .left_block .google_map {
+	margin-bottom: 35px;
+}
+#shop .content_outline .left_block .read_article .btn {
+	width: 360px;
+	margin: 0px auto 0px auto;
+	line-height: 60px;
+	font-size: 16px;
+	font-weight: normal;
+}
+#shop .content_outline .left_block .left_block_inner em{
+	font-family: Helvetica,Arial,"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3",Meiryo,メイリオ,sans-serif;
+	font-style: normal;
+}
+#shop .content_outline .right_block {
+	width: 350px;
+}
+
+/*（右ブロック）ショップ詳細
+---------------------------------------------------------------------------*/
+
+#shop #about_shop{
+	border-bottom:1px solid #564E4C;
+	margin-bottom:35px;
+}
+#shop #about_shop h3 {
+	font-size: 18px;
+	font-weight: normal;
+	padding-top: 10px;
+}
+#shop #about_shop .exp {
+	padding: 10px 0px 10px 0px;
+	line-height: 1.8em;
+}
+
+#shop #about_shop .exp p{
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	line-height: 1.8em;
+}
+
+/*メイン検索ボックス（オーバーライド）
+---------------------------------------------------------------------------*/
+
+#shop .right_block .control_search_logo {
+	float: left;
+	width: 86px;
+}
+#shop .right_block .control_search {
+	float: left;
+	width: 250px;
+	margin-left: 8px;
+}
+#shop .right_block .control_search .search_category,#shop .right_block .control_search .search_prefecture,#shop .right_block .control_search .search_area {
+	width: 100%;
+	margin-bottom: 10px;
+}
+#shop .right_block .control_search .search_arrow {
+	width: 100%;
+	padding: 5px 0px 10px 0px;
+}
+
+/*ページャー（オーバーライド）
+---------------------------------------------------------------------------*/
+
+#shop .pager {
+	width: 100%px;
+	padding: 40px 0px 75px 0px;
+}
+/*ショップコンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+.main_ttl{
+	text-align:center;
+	margin-bottom:35px;
+}
+/*検索ボックス（オーバーライド）
+_____________________________________________________________________________*/
+#shoseki{
+
+}
+#shoseki ul{
+  margin: 8px 0;
+}
+#shoseki li{
+  margin: 2px 0;
+  list-style-type: square;
+  list-style-position: inside;
+}
+#shoseki p{
+  line-height: 1.5em;
+  margin: 10px 0;
+}
+#shoseki span{
+  color: red;
+	font-family: Helvetica,Arial,"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3",Meiryo,メイリオ,sans-serif;
+	font-style: normal;
+}
+#shoseki li a:hover{
+  text-decoration: underline;
+}
+/*レコメンド（オーバーライド）
+_____________________________________________________________________________*/
+#recommend .left_contents span.btn_disable{
+	display: block;
+	width: 200px;
+	height: 44px;
+	background-color: #C2BAB1;
+	border: 1px solid #C2BAB1;
+	text-align: center;
+	line-height: 45px;
+	color: #FFFFFF;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-weight: lighter;
+}
+
+#recommend .left_contents table tr td a:hover{
+	opacity: 0.6;
+}
+
+#recommend .right_contents table tr td a:hover{
+	opacity: 0.6;
+}

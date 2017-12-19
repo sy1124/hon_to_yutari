@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*トップスライダー設定（flexslider）
+---------------------------------------------------------------------------*/
+
+#top_slider {
+	clear: both;
+	overflow: hidden;
+}
+#top_slider #slider_01 {
+	position: relative;
+	width: 330px;						/*320px以上の場合のスライド幅　320px以下は下のMedia Queriesで設定*/
+	height: 253px;
+	margin: 0px auto 0px auto;
+	position: relative;					/*矢印ボタン左右位置合わせに必要*/
+	text-align: center;
+
+}
+@media screen and (max-width: 320px) {
+#top_slider #slider_01 {
+	width: 320px;
+}
+}
+
+#top_slider #slider_01 .slides li {
+						/* 制作中は消す */
+}
+#top_slider #slider_01 .flex-viewport {
+	overflow: visible !important;		/*スライダーを横1列にするために必要*/
+}
+#top_slider #slider_logo {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 13px;
+	z-index: 100;
+}
+#top_slider #store_btn {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 210px;
+	z-index: 100;
+}
+
+/*矢印ボタン*/
+#top_slider #slider_01 ul {
+	display: table;
+}
+#top_slider .flex-direction-nav li a {
+	height: 40px;
+	width: 40px;
+	overflow: hidden;						/*text-indent:-9999pxの代用*/
+	text-indent: 100%;						/*text-indent:-9999pxの代用*/
+	white-space: nowrap;					/*text-indent:-9999pxの代用*/
+	position: absolute;
+	z-index: 200;
+	top: 50%;								/*矢印ボタン上下センターの位置合わせに必要*/
+	margin-top: -20px;						/*矢印ボタン上下センターの位置合わせに必要*/
+}
+#top_slider .flex-direction-nav li a.flex-prev {
+	left: 5px;
+	background-image: url(/index/image/btn-l.png);
+	background-repeat: no-repeat;
+	background-size: 6px 11px;
+	background-position: center center;
+}
+#top_slider .flex-direction-nav li a.flex-next {
+	right: 5px;
+	background-image: url(/index/image/btn-r.png);
+	background-repeat: no-repeat;
+	background-size: 6px 11px;
+	background-position: center center;
+}

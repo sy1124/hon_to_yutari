@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+
+.main .contents {
+	width: 100%;
+}
+#project_detail.main .ttl img{
+	margin-bottom: 10px;
+}
+#project_detail.main .ttl h1{
+	padding: 5px 0;
+	letter-spacing: 0.2ex;
+}
+#item_detail .ttl {
+	width: 100%;
+	text-align: center;
+	font-size: 100%;
+	margin-bottom: 0px;
+	padding: 15px 0px 35px 0px;
+}
+#item_detail .ttl img {
+	width: auto !important;
+	height: auto;
+	zoom: 0.5;
+}
+#item_detail h1,#item_detail h2 {
+	font-size: 125%;
+}
+#item_detail h2 {
+	width: 90%;
+	margin: 0px auto 20px auto;
+}
+#item_detail .author {
+	width: 90%;
+	margin: 0px auto 20px auto;
+	color: #928372;
+	font-size: 83%;
+}
+#item_detail .author strong {
+	color: #221814;
+	display: block;
+	padding-bottom: 5px;
+}
+
+/*カテゴリーメニュ（オーバーライド）
+---------------------------------------------------------------------------*/
+#category_menu.accordion-box {
+	width: 100%;
+	overflow: hidden;
+	padding: 5px;
+}
+#category_menu.accordion-box span.menu_logo {
+	display: inline-block;
+	float: left;
+	margin:0 auto;
+}
+
+#category_menu.accordion-box .menu_outline {
+	width: 70%;
+	float: right;
+}
+#category_menu.accordion-box .menu_outline dl {
+	margin: 0 0 5px;
+	padding: 0;
+	width: 90%;
+	border-bottom: 3px solid #473727;
+	background: #FFF;
+}
+ul li {
+	font-size: 12px;
+	margin: 0 0 5px;
+	padding: 0;
+}
+
+.address{
+	margin: 20px;
+}
+
+.read_article{
+	margin: 5px 0 20px;
+}
+
+.read_article .btn{
+	width: 40%;
+	margin: 0px auto 0px auto;
+	line-height: 30px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.read_article2{
+	margin: 20px 0;
+}
+
+.read_article2 a.btn{
+	width: 40%;
+	margin: 0px auto 0px auto;
+	line-height: 30px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#recommend .right_contents, #recommend .left_contents{
+  margin-top: 30px;
+}
+
+#recommend .right_contents .ttl, #recommend .left_contents .ttl{
+  font-size: 1.3em;
+  margin-bottom: 7px;
+}
+
+
+#recommend td.btn{
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#recommend tr .buy_btn{
+  margin: 15px auto;
+}
+
+#recommend a.btn.btn_cart{
+	width:118px;
+	height: 30px;
+	margin: 15% 0 0;
+}
+
+#recommend span.btn_disable{
+	width:118px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.contents_column{
+	margin: 0px auto 20px auto;
+	font-size: 108%;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+
+}

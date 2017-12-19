@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*検索結果（オーバーライド）
+---------------------------------------------------------------------------*/
+
+.box {
+	background-color: #FFFFFF;
+	margin-bottom: 25px;
+}
+.box .inner h1 {
+	position: absolute;
+	width: 100%;
+	font-size:small;
+	text-align: center;
+	top: 45%;
+	line-height: 1em;
+	margin-left: -8px;
+}
+.box .more {
+	padding: 0px 8px 8px 8px;
+}
+.box .exp {
+	padding: 10px;
+}

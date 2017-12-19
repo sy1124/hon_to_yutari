@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* CSS Document 'info' */
+/*コンテンツ（オーバーライド）の（オーバーライド）
+---------------------------------------------------------------------------*/
+
+#info .contents_column .left_block_inner {
+	width: 563px;
+}
+#info .contents_column {
+	background-image: none;
+	overflow: hidden;
+}
+
+/*プライバシーポリシー
+---------------------------------------------------------------------------*/
+
+#info .ttl {
+	font-size: 32px;
+	padding: 0px 0px 20px 0px;
+	font-weight: normal;
+}
+#info .ttl2 {
+	font-size: 22px;
+	padding: 0px 0px 20px 0px;
+	font-weight: normal;
+}
+#info .contents_column .left_block p {
+	line-height: 2em;
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	margin-bottom: 25px;
+}
+#info .contents_column .other_link {
+	padding: 0px 0px 40px 0px;
+}
+#info .contents_column .other_link li {
+	font-size: 16px;
+}
+
+/*コンテンツブロック
+______________________________________________________*/
+.left_block{
+	width: 612px;
+}
+.left_block_inner{
+	width: 100%;
+}
+
+.right_block{
+	width:350px;
+}
+
+/*コンテンツ文章
+_________________________________________________________*/
+.ttl{
+	font-size: 32px;
+	padding: 0px 0px 20px 0px;
+	font-weight: normal;
+	}
+.ttl2{
+	font-size: 22px;
+	padding: 0px 0px 20px 0px;
+	font-weight: normal;
+}
+
+.contents_column .left_block p {
+	line-height: 2em;
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	margin-bottom: 25px;
+}
+
+
+.contents_column .other_link {
+	padding: 0px 0px 40px 0px;
+}
+.contents_column .other_link li {
+	font-size: 16px;
+}
+
+/*コンテンツ左カラム
+___________________________________________________________________*/
+.left_block_inner #topicBox h3{
+		margin: 0 0 5px;
+		padding: 0;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+
+.left_block_inner #topicBox #timeBox p {
+	margin: 0;
+	padding: 0;
+	}
+
+.left_block_inner #topicBox #timeBox p time{
+		font-size: 14px;
+		line-height: 1.25;
+		text-align: left;
+	}
+
+.left_block_inner #topicBox #entryBox p{
+		font-size: 16px;
+	}
+
+/*コンテンツ右カラム
+___________________________________________________________________*/
+.right_block h4{
+	margin: 0 0 5px;
+	padding: 0;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.25;
+}
+
+.right_block dl {
+	margin: 0;
+	padding: 10px 0 40px;
+	border-top: 1px solid #000;
+}
+
+.right_block dl dt {
+	margin: 0 0 5px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.right_block dl dd {
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	font-size: 14px;
+	line-height: 1.25;
+	border-bottom: 1px solid #000;
+}
+
+.right_block ul {
+	margin: 0;
+	padding: 10px 0 0;
+	list-style: none;
+}
+
+.right_block ul li {
+	margin: 0;
+	padding: 0 0 15px;
+	font-size: 14px;
+	line-height: 1.25;
+}
+
+#info.main .content_outline .right_block{
+	padding-top: 50px;
+}
+/*
+スクロールバ
+_____________________________________________________________________________*/
+
+/*.left_block_inner #sc{
+	width:600px;
+	height: 400px;
+	padding: 5px;
+	border: 1px solid #CC0000;
+	margin: 5px;
+	overflow-y: scroll;
+  overflow-x: hidden;
+}
+*/

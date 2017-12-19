@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/*コンテンツ（オーバーライド）
+---------------------------------------------------------------------------*/
+#about.main .content_outline{
+	overflow: hidden;
+	background-image: url(../../image/common/contents/bg-column_line_tate.png);
+	background-repeat: repeat-y;
+	background-position: 615px top;
+}
+
+
+hr {
+	border: none;
+	border-bottom: solid 1px #aaaaaa;
+	padding: 20px 0;
+	marign: 0;
+}
+
+/*（左ブロック）プロジェクト概要
+---------------------------------------------------------------------------*/
+
+#about_exp {
+	margin-bottom: 30px;
+}
+#about p {
+	padding-bottom: 1.2em;
+}
+#about_exp .address {
+	font-size: 15px;
+	margin-bottom: 20px;
+	line-height: 1em;
+	font-weight: bold;
+}
+#about_exp .category {
+	font-size: 17px;
+	color: #938372;
+}
+#about_exp .category ul {
+	overflow: hidden;
+	padding-top: 8px; 
+}
+#about_exp .category li {
+	float: left;
+	color: #7C6F5F;
+	font-size: 14px;
+	border-right: 1px solid #938372;
+	padding: 0px 7px 0px 7px;
+	line-height: 1em;
+}
+#about_exp .category li a {
+	color: #7C6F5F;
+}
+#about_exp .category li:first-child {
+	border-left: 1px solid #938372;
+}
+.left_block p{
+	line-height: 2em;	
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.left_block p a {
+	text-decoration: underline;
+}
+
+/*（右ブロック）プロジェクトについて
+---------------------------------------------------------------------------*/
+
+#about_project {
+	margin-bottom: 40px;
+}
+#about_project .sam {
+	margin-bottom: 20px;
+}
+#about_project h3 {
+	font-size: 15px;
+	padding: 10px 0px 20px 0px;
+}
+#about_project .exp {
+	padding: 15px 20px 15px 20px;
+	border-top: 1px solid #564E4C;
+	border-bottom: 1px solid #564E4C;
+}
+
+/*（右ブロック）ショップ詳細
+---------------------------------------------------------------------------*/
+
+#about #about_shop {
+    border-bottom: 1px solid #564e4c;
+    border-top: 1px solid #564e4c;
+    letter-spacing: 2px;
+    padding: 20px 0 40px;
+}
+#about #about_shop h3 {
+	font-size: 18px;
+	font-weight: normal;
+	padding: 10px 0 10px 0;
+}
+#about #about_shop h4 {
+    font-size: 15px;
+    padding: 10px 0px 0 0px;
+}
+#about #about_shop .exp {
+	padding: 10px 0px 10px 0px;
+	line-height: 1.8em;
+}
+#about_shop .address {
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	line-height: 1em;
+	font-weight: bold;
+}
+
+/* ブレイクイメージ
+---------------------------------------------------------------------------*/
+
+.break_img {
+	background-color: #EFEFEF;
+	background-image: url(/image/common/contents/bg-main.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	padding: 20px 0px 20px 0px;
+}
+
+
+hr { margin-bottom:20px; }

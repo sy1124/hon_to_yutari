@@ -1,0 +1,490 @@
+
+@charset "utf-8";
+
+/*メイン内コンテンツ部分　共通CSS デザインは個別ページCSSでオーバーライド
+---------------------------------------------------------------------------*/
+
+#page_ttl {
+	clear: both;
+	background-image: url(../image/contents/bg-page_header.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 577px 75px;
+	height: 75px;
+	background-color: #1E0602;
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+#page_ttl p {
+	display: table-cell;
+	vertical-align: middle;
+}
+.kanren_link {
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 25px;
+}
+.kanren_link .under_line {
+	border-bottom: 1px solid #221714;
+	width: 35%;
+	margin: 0px auto 0px auto;
+	height: 6px;
+}
+
+/*矢印付き　その他関連リンク
+---------------------------------------------------------------------------*/
+
+.other_link {
+	margin-bottom: 25px;
+}
+.other_link li {
+	padding: 3px 0px 3px 15px;
+	background-image: url(/common/image/contents/bg-arrow_right_w16.png);
+	background-repeat: no-repeat;
+	background-position: 3px 7px;
+	background-size: 8px 10px;
+	font-size: 108%;
+}
+
+/*テキストボタン（ブラウン）共通CSS デザインは個別ページCSSでオーバーライド
+---------------------------------------------------------------------------*/
+
+a.btn,input.btn,.btn_disable {
+	display: block;
+	background-color: #948472;
+	border: 1px solid #948472;
+	text-align: center;
+	width: 100%;
+	line-height: 28px;
+	color: #FFFFFF;
+	font-size: 108%;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+}
+.btn_cart {
+	background-image: url(/common/image/contents/bg-icon_cart.png);
+	background-repeat: no-repeat;
+	background-position: 9% center;
+	background-size: 17px 15px;
+}
+.btn_disable {
+	display: block;
+	background-color: #C2BAB1;
+	border: 1px solid #C2BAB1;
+	color: #FFFFFF;
+	text-align: center;
+	cursor: default;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-weight: lighter;
+	margin: 0 auto;
+}
+.btn_disable:hover {
+	background-color: #948472;
+	opacity: 0.5;
+}
+/*fixheight
+---------------------------------------------------------------------------*/
+
+.fixHeightChild_01,.fixHeightChild_02,.fixHeightChild_03,.fixHeightChild_04,.fixHeightChild_05 {
+	display: block;
+}
+
+/*色
+---------------------------------------------------------------------------*/
+
+.red {
+	color:#DB5443 !important;
+}
+.white {
+	color:#FFFFFF !important;
+}
+
+/*基本ボックス
+---------------------------------------------------------------------------*/
+
+.box a {
+	display: block;
+}
+.box th,.box td {
+	vertical-align: middle;
+}
+.box .inner {
+	position: relative;
+	background-color: #FFFFFF;
+	padding: 4px;
+}
+.box .inner img {
+	width: 100%;
+	height: auto;
+}
+.box .icon_new {
+	position: absolute;
+	width: 8.75%;
+	top: 0px;
+	right: 10%;
+}
+.box .icon_new p {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	font-size: 41.6%;
+	color: #FFFFFF;
+}
+.box .img_disable .txt {
+	position: absolute;
+	left: 0px;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	font-size: 58%;
+	font-weight: bold;
+}
+.box .category {
+	font-weight: bold;
+}
+
+/*2カラム ボックス
+---------------------------------------------------------------------------*/
+
+.column_2 {
+	width: 103%;
+	margin-left: -3%;
+	overflow: hidden;
+}
+.column_2 .box {
+	width: 47%;
+	float: left;
+	margin-left: 3%;
+}
+
+/*メイン検索ボックス
+---------------------------------------------------------------------------*/
+
+::-webkit-input-placeholder {
+    color: #231815;
+	text-indent: 1em;
+}
+.control_search input,.control_search select {
+	vertical-align: middle;
+	-webkit-appearance: none;	/*iPhoneでオリジナルの送信ボタン*/
+}
+.control_search input[type*="text"],.control_search select {
+	border: 1px solid #C8C8C8;
+	font-size: 108%;
+	height: 30px;
+	width: 100%;
+	border-radius: 3px;
+	-webkit-border-radius : 3px;
+	-moz-border-radius: 3px;
+	text-indent: 1em;
+}
+.control_search {
+	margin-bottom: 12px;
+}
+.control_search input,.control_search select {
+	margin-bottom: 10px;
+}
+.control_search select {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	background-size: 30px 30px;
+	background-position: right center;
+	background-color: #FFFFFF;
+	background-image: url(../image/common_form/bg-arrow_lower_brown_w60.png);
+	background-repeat: no-repeat;
+}
+.control_search td {
+	background-position: 97% center;
+	background-repeat: no-repeat;
+	background-size: 13px 14px;
+}
+.control_search th {
+	width: 32%;
+}
+.control_search .btn {
+	margin-bottom: 0px;
+	background-color: #463626;
+	border: 1px solid #463626;
+}
+
+/*検索結果
+---------------------------------------------------------------------------*/
+
+.search_result {
+	overflow: hidden;
+}
+.search_result_ttl {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.search_result_sort {
+	text-align: right;
+	font-size: 108%;
+	margin-bottom: 20px;
+}
+.search_result_sort a.active {
+	color: #DA5443;
+}
+.search_result .box {
+	margin-bottom: 20px;
+}
+.search_result .box .category,.search_result .box .ttl,.search_result .box .price {
+	font-size: 83%;
+	padding-top: 5px;
+	word-wrap: break-word;
+	line-height: 1em;
+}
+.search_result .box .ttl {
+	font-weight: bold;
+	padding-top: 10px;
+}
+.search_result .box .price {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.search_result .box .detail .btn,.search_result  .box .detail .btn_cart {
+	margin-bottom: 7px;
+
+}
+
+/*検索結果→詳細画面 アイテム紹介
+---------------------------------------------------------------------------*/
+
+#item_exp {
+	width: 73%;
+	margin: 0px auto 0px auto;
+}
+#item_exp .sam img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+#item_exp img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+#item_exp .category {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+#item_exp .ttl {
+	font-size: 133%;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+/*検索結果→詳細画面 アイテム紹介-詳細
+---------------------------------------------------------------------------*/
+
+#item_detail img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+#item_detail .ttl {
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	width: 73%;
+	margin: 0px auto 15px auto;
+	font-size: 125%;
+}
+#item_detail p {
+	width: 90%;
+	margin: 0px auto 20px auto;
+	font-size: 108%;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+/*検索結果→詳細画面 アイテム情報
+---------------------------------------------------------------------------*/
+
+#item_info {
+	width: 90%;
+	margin: 0px auto 25px auto;
+	border-top: 1px solid #221714;
+	border-bottom: 1px solid #221714;
+	padding: 20px 10px 0px 10px;
+}
+#item_info .ttl {
+	margin-bottom: 5px;
+}
+#item_info .exp,#item_info .attention  {
+	margin-bottom: 20px;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+#item_info .exp strong  {
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+#item_info .attention p {
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	margin-left: 0.6em;				/* ブロック全体を 1em 右に */
+	text-indent: -0.6em;			/* 先頭の1文字のみ 1em 左に */
+}
+
+/*検索結果→詳細画面 カートボタン
+---------------------------------------------------------------------------*/
+
+#cart {
+	width: 100%;
+	margin: 0px auto 15px auto;
+	text-align: center;
+}
+#cart a {
+	margin-bottom: 14px;
+}
+
+/*カテゴリーメニュー
+---------------------------------------------------------------------------*/
+
+#category_menu {
+	width: 90%;
+	margin: 0px auto 15px auto;
+	overflow: hidden;
+	clear: both;
+	padding: 15px 0px 15px 0px;
+	border-bottom: 1px solid #000000;
+}
+#category_menu .menu_logo {
+	float: left;
+	width: 14%;
+}
+#category_menu .menu_outline {
+	float: right;
+	width: 82%;
+}
+#category_menu .menu {
+	border-bottom: 3px solid #948472;
+	background-color: #FFFFFF;
+}
+#category_menu .ttl {
+	cursor: pointer;
+	background-image: url(/sp/image/project/common/bg-arrow_lower.png);
+	background-repeat: no-repeat;
+	background-position: 97% center;
+	padding: 8px 0px 8px 10px;
+	font-weight: bold;
+	background-size: 8px 5px;
+}
+#category_menu .ttl.active{
+	background-image: url(/sp/image/project/common/bg-arrow_upper.png);
+}
+#category_menu .list {
+	display: none;
+}
+#category_menu .list ul {
+	padding: 0px 0px 5px 10px;
+}
+#category_menu .list li {
+	line-height: 2em;
+}
+
+/*ページャー
+---------------------------------------------------------------------------*/
+
+.pager {
+	clear: both;
+	padding: 10px 0 10px;
+	border-top: 1px solid #000000;
+  margin: 5px auto 5px;
+  width:100%;
+  text-align:center;
+  font-size:0;
+  overflow: hidden;
+
+}
+
+.page-numbers{
+	font-family:Arial, Roboto, 'Droid Sans', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+	font-size:1rem;
+  background-color: #948472;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	line-height:30px;
+	margin: 0 7px;
+}
+
+.page-numbers img{
+  width: 30px;
+  height: 30px;
+	vertical-align: bottom;
+}
+
+a.page-numbers {
+	background: #948472;
+}
+
+a.page-numbers:not(.prev):not(.next):hover{
+	background-color: #473727;
+}
+
+a.prev{
+	float: left;
+	background-color: #EFEFEF;
+	margin: 0;
+}
+a.next{
+	float: right;
+	background-color: #EFEFEF;
+	margin: 0;
+}
+span.current{
+	background-color: #473727;
+}
+span.dots{
+	background: none;
+	color: #473727;
+}
+
+/* レコメンド
+---------------------------------------------------------------------------*/
+
+#recommend {
+	width: 89%;
+	margin: 0px auto 35px auto;
+}
+#recommend table {
+	margin-bottom: 14px;
+}
+#recommend th {
+	width: 43%;
+}
+#recommend th img {
+	border: 5px solid #FFFFFF;
+	width: 100%;
+	height: auto;
+}
+#recommend td {
+	padding-left: 15px;
+	font-size: 83%;
+}
+#recommend .category {
+	padding-top: 3px;
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+#recommend .ttl {
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+#recommend .price {
+	padding-bottom: 8px;
+}
+#recommend .btn_cart {
+	width: 95%;
+}
+/*
+インフィニットスクロール__________________________________________________________*/
+#infscr-loading {
+text-align:center;
+margin:0 auto;
+}

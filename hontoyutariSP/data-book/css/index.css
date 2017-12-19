@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*検索結果（オーバーライド）
+---------------------------------------------------------------------------*/
+a.btn_disable{
+	opacity: 0.5;
+	cursor: default;
+	background-color: #948472;
+	margin-bottom:7px;
+}
+
+#book_index.main .box{
+	overflow:hidden;
+	}
+#book_index.main .box:nth-child(2n+1){
+	float:left;
+	clear: both;
+}
+
+#book_index.main .box:nth-child(2n){
+	float:right;
+}
+
+.column_2.fixHeight .box .category.fixHeightChild_02{
+	padding: 0;
+	margin: 8px auto;
+	font-size: 9px;
+	line-height: 1.5em;
+}
+
+.column_2.fixHeight .box .ttl{
+	padding: 0;
+	margin: 5px auto;
+	font-size: 12px;
+}
+
+.column_2.fixHeight .price.fixHeightChild_04{
+	padding: 0;
+	margin: 10px auto;
+}

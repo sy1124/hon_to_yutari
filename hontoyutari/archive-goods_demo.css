@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document　'demo_goods' */
+
+/*検索ボックス
+---------------------------------------------------------------------------*/
+table tr td.search_keyword{
+  width: 300px;
+  height: 40px;
+}
+
+.control_search .search_category,.control_search .search_project{
+  width: 250px;
+  height: 40px;
+  overflow: hidden;
+}
+
+table tr td .fmselect{
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(data-common/image/contents/bg-form_select_box.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+table tr td .fmselect:hover{
+  background-image: url(data-common/image/contents/bg-form_select_box_hover.png);
+}
+
+.control_search td {
+	height: 48px;
+	vertical-align: middle;
+	display: table-cell;
+  text-align: center;
+}
+
+span.customSelect, span.customSelectInner{
+  width: 230px !important;
+}

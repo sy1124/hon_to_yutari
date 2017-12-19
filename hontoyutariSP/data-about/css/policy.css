@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+/*コンテンツ
+---------------------------------------------------------------------------*/
+
+.main h1,.main h2 {
+	font-size: 133%;
+	margin-bottom: 15px;
+	color: #41403E;
+}
+.main h3 {
+	font-size: 108%;
+	margin-bottom: 15px;
+}
+.main p {
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	margin-bottom: 25px;
+	font-size: 108%;
+}
+/*プライバシーポリシー
+_____________________________________________________________________________*/
+.ttl {
+	font-size: 20px;
+	font-weight: normal;
+}
+.ttl2 {
+	font-size: 17px;
+	padding: 0px 0px 20px 0px;
+	font-weight: normal;
+}
+#policy.main p {
+	line-height: 2em;
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	margin-bottom: 15px;
+}
